@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.appointment-details {
+  list-style-type: none;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #b5b7c4;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 270px;
+}
+@media (max-width: 768px) {
+  .appointment-details {
+    width: 99%;
+  }
+  .appointment-details {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+}
+.appointment-details-heading {
+  display: flex;
+  justify-content: space-between;
+}
+.star {
+  height: 50%;
+  margin-top: 10px;
+  border: 0px;
+  background-color: transparent;
+}
+.title-name {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.appointment-timing {
+  font-size: 14px;
+}

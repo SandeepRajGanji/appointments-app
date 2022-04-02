@@ -1,0 +1,119 @@
+/* Write your CSS here */
+.appointments-app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+}
+.appointments-container {
+  max-width: 1140px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.add-appointments-card {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.add-appointment-form-card {
+  display: flex;
+  flex-direction: column;
+}
+.add-appointments-heading {
+  font-size: 24px;
+}
+.appointments-image {
+  max-width: 50%;
+}
+.show-appointments-container {
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid #b5b7c4;
+}
+.show-appointment-details {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.show-appointments-heading {
+  font-size: 24px;
+}
+.starred {
+  border: 2px solid #8b5cf6;
+  color: #8b5cf6;
+  background-color: transparent;
+  border-radius: 10px;
+  height: 20px;
+  margin-top: 22px;
+}
+.add-button {
+  width: 60px;
+  margin-top: 10px;
+  background-color: #8b5cf6;
+  color: #ffffff;
+  border: 0px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.title-heading {
+  font-size: 14px;
+  color: #b5b7c4;
+  margin-top: 5px;
+}
+.title-text {
+  border: 1px solid #b5b7c4;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.date-heading {
+  font-size: 14px;
+  color: #b5b7c4;
+  margin-top: 5px;
+}
+.date-selection {
+  border: 1px solid #b5b7c4;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.appointment-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 0px;
+}
+@media (max-width: 768px) {
+  .appointments-container {
+    width: 50%px;
+    margin: 15px;
+  }
+  .add-appointments-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .appointments-image {
+    margin-top: 15px;
+    max-width: 75%;
+    align-self: center;
+  }
+  .appointment-list {
+    display: flex;
+    flex-direction: column;
+    margin-left: -35px;
+  }
+  .show-appointment-details {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+}
